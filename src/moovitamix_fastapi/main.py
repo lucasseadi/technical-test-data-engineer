@@ -6,7 +6,8 @@ from fastapi_pagination import Page, add_pagination, paginate
 from generate_fake_data import FakeDataGenerator
 
 Page = Page.with_custom_options(
-    size=Query(100, ge=1, le=100),
+    #size=Query(100, ge=1, le=100),
+    size=Query(500, ge=1, le=500),
 )
 
 app = FastAPI(

@@ -1,5 +1,10 @@
-faker
-fastapi
-uvicorn
-fastapi_pagination
-pytest
+Faker==35.0.0
+fastapi==0.115.7
+fastapi_pagination==0.12.34
+httpx==0.28.1
+pydantic==2.10.6
+pytest==8.3.4
+schedule==1.2.2
+tenacity==9.0.0
+tinydb==4.8.2
+uvicorn==0.34.0
